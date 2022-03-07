@@ -24,6 +24,7 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
               "src/styles.css"
             ],
             "scripts": []
@@ -119,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "notes-app"
+    }
+  },
+  "defaultProject": "notes-app",
+  "cli": {
+    "analytics": "28367533-b1f7-4953-8862-b622af103c19"
+  }
 }

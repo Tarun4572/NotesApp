@@ -1,0 +1,17 @@
+<div class="main-container">
+       <div class="search">
+        <input type="text"  (keyup)="filter($event.target.value)" id="search" placeholder="search">
+      </div>
+
+      <div class="notes-list">
+        <app-note-card 
+        *ngFor="let note of notes;let i=index"
+        [id]="i"
+        [note]="note">
+      </app-note-card>
+      </div>
+      
+        <button type="button" routerLink="new">+Add</button>
+      
+      
+</div>

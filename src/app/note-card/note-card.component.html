@@ -1,0 +1,16 @@
+<div class="note-card-container">
+    
+        <div class="note-card-content" [routerLink]="id" >
+            <h1 class="note-card-title" style="margin-top: 0;">{{note.title}}</h1>
+            <div class="note-card-body">
+                {{note.body}}
+                 <div class="fade-out"></div>
+            </div>
+    
+        </div>
+    
+   
+    <div class="x-button" (click)="delete()">
+        <p>X</p>
+    </div>
+</div>

@@ -1,0 +1,47 @@
+.note-card-container{
+    background:white;
+    box-shadow: blanchedalmond;
+    border-radius: 5px ;
+    position: relative;
+    margin-bottom: 20px;
+}
+.note-card-container:hover{
+    cursor: pointer;
+}
+.note-card-container:hover .x-button{
+    opacity: 1;
+}
+.note-card-content{
+    padding: 20px;
+}
+.note-card-title{
+    font-size: 20px;
+    color:purple;
+    margin-bottom: 5px;
+
+}
+.x-button{
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    height: 20px;
+    width: 20px;
+    align-content: center;
+    background-color: wheat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 4px;
+    opacity: 0;
+}
+.x-button p{
+    color: red;
+
+}
+.note-card-body{
+    max-height: 60px;
+    overflow: hidden;
+    color: #555;
+}
+
+
